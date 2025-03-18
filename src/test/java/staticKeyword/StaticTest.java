@@ -6,15 +6,13 @@ public class StaticTest {
 
     @Test
     public void metodaTest(){
-        Elev elev1 = new Elev("Geoana", "Aurel", 14, 7);
+        Elev elev1 = new Elev("Mircea", "Radu", 15, "7B");
         elev1.infoElev();
         System.out.println();
-
-        Elev elev2 = new Elev("Petru", "Fetea", 15, 8);
+        Elev elev2 = new Elev("Andrei", "Carmen", 16, "5B");
         elev2.infoElev();
         System.out.println();
-
-        Elev elev3 = new Elev("Florentin", "Ionut", 16, 9);
+        Elev elev3 = new Elev("Ionut", "Maria", 16, "6A");
         elev3.infoElev();
     }
 }
